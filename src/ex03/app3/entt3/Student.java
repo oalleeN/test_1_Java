@@ -11,7 +11,7 @@ public class Student {
     }
     public String toString(){
 
-        String line = "-a";
+        String line;
         if (sumNote() < 60) {
             line = "FINAL GRADE: "
                     + String.format("%.2f%n", sumNote())
